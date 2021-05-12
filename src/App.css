@@ -1,6 +1,28 @@
 body{
   background-image: url(./static/images/background.jpg);
   background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: center;
   
 }
+
+.title{
+  font-family: 'Playfair Display', sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  color: rgb(204, 175, 13);
+  font-weight: 50;
+  font-size: 500%;
+}
+
+.spotify{
+  display: flex;
+  justify-content:center;
+}
+
+.container{
+  margin:20px;
+  border:5px solid rgb(204, 175, 13);
+}
+
 
