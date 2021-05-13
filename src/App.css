@@ -4,15 +4,7 @@ body{
   background-size: auto;
   background-position-x: center;
   
-}
-
-.title{
-  font-family: 'Playfair Display', sans-serif;
-  text-align: center;
-  letter-spacing: 2px;
-  color: rgb(228, 199, 37);
-  font-weight: 10;
-  font-size:10vh;
+  
 }
 
 .spotify{
@@ -23,17 +15,17 @@ body{
 
 .container{
   margin:20px;
-  border:2px solid rgb(228, 199, 37);
+  border:3px solid goldenrod;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .link{
   font-family: 'Playfair Display', sans-serif;
-  color: rgb(228, 199, 37);
+  color: goldenrod;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 4vh;
   letter-spacing: 2px;
   font-weight: 50;
 }
@@ -51,11 +43,36 @@ a:hover{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom:2vh;
+  flex-wrap: wrap;
   
 }
 
-.icon:hover{
-  bgColor:whitesmoke;
+.video{
+  display: flex;
+  justify-content: center;
+  margin:50px;
 }
 
 
+@font-face {
+  font-family: 'VAL';
+  src: local('VAL'),
+      url('./fonts/VAL.otf') format('opentype');
+}
+
+
+.title{
+  font-family: 'VAL',sans-serif;
+  color:goldenrod;
+  text-align: center;
+  font-size: 10vh;
+}
+
+
+
+/* @media(max-width:690px){
+  .social-container{
+    flex-direction: column;
+  }
+} */

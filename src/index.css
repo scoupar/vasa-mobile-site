@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'VAL';
+  src: local('VAL') url(./fonts/VAL.otf) format('opentype');
+}
+
+
+.icon:hover{
+  color:white;
+}
