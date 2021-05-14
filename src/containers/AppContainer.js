@@ -18,6 +18,7 @@ const AppContainer = () => {
             <SocialIcon url = "https://instagram.com/vasaband" target ="blank" network = "instagram" bgColor = "GoldenRod" className ="icon" style={{height:50, width:50}}/>
             <SocialIcon url ="https://www.facebook.com/vasaband" target ="blank" network = "facebook" bgColor = "GoldenRod"className ="icon" style={{height:50, width:50}}/>
             <SocialIcon url = "https://twitter.com/vasaband" target ="blank" network = "twitter" bgColor = "GoldenRod" className ="icon" style={{height:50, width:50}}/>
+            <SocialIcon url = "https://www.youtube.com/channel/UCsN2Etfsh0xBbzcSa4Tjksw" target ="blank" network = "youtube" bgColor = "GoldenRod" className ="icon" style={{height:50, width:50}}/>
         </div>
         
         </div>
