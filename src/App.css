@@ -1,75 +1,69 @@
-body{
+body {
   background-image: url(./static/images/background.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position-x: center;
-  
-  
 }
 
-.spotify{
+.spotify {
   display: flex;
-  justify-content:center;
-  margin:2vh;
+  justify-content: center;
+  margin: 2vh;
 }
 
-.container{
-  margin:20px;
-  border:3px solid goldenrod;
+.container {
+  margin: 20px;
+  border: 3px solid goldenrod;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
-.link{
-  font-family: 'Playfair Display', sans-serif;
+.link {
+  font-family: "Playfair Display", sans-serif;
   color: goldenrod;
   text-decoration: none;
   font-size: 4vh;
   letter-spacing: 2px;
   font-weight: 50;
+  width: auto;
 }
 
-a{
+a {
   text-align: center;
-  margin:5vh;
+  margin: 5vh;
+  transition: all 0.5s ease;
 }
 
-a:hover{
-  color:whitesmoke;
+a:hover {
+  color: whitesmoke;
 }
 
-.social-container{
+.social-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom:2vh;
+  margin-bottom: 2vh;
   flex-wrap: wrap;
-  
 }
 
-.video{
+.video {
   display: flex;
   justify-content: center;
-  margin:50px;
+  margin: 50px;
 }
-
 
 @font-face {
-  font-family: 'VAL';
-  src: local('VAL'),
-      url('./fonts/VAL.otf') format('opentype');
+  font-family: "VAL";
+  src: local("VAL"), url("./fonts/VAL.otf") format("opentype");
 }
 
-
-.title{
-  font-family: 'VAL',sans-serif;
-  color:goldenrod;
+.title {
+  font-family: "VAL", sans-serif;
+  color: goldenrod;
   text-align: center;
   font-size: 10vh;
 }
-
-
 
 /* @media(max-width:690px){
   .social-container{
