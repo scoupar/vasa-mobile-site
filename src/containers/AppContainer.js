@@ -28,6 +28,13 @@ const AppContainer = () => {
         >
           BUY MERCH
         </a>
+        <a
+          className="link"
+          href="https://ripcordrecords.bandcamp.com/merch"
+          target="blank"
+        >
+          TAPES AVAILABLE VIA RIPCORD RECORDS
+        </a>
         <div className="social-container">
           <SocialIcon
             url="https://open.spotify.com/artist/0qb2PA9d6mQD2RwY5MdfW5?si=IKmkI6FFT9KZZg5BLsVn1Q"
